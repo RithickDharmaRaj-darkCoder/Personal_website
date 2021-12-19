@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: cursive;
+}
+
+.logoarea{
+    background: #D9D7D7;
+    padding: 4px;
+    padding-top: 6px;
+    padding-left: 10px;
+    height: 50px;
+}
+
+.logoarea span{
+    color: red;
+}
+
+.sidebar{
+    background: #0C3A47;
+    margin-top: auto;
+    padding-top: auto;
+    position: fixed;
+    left: 0px;
+    width: 350px;
+    height: 100%
+}
+
+.sidebar .dp{
+    width: 165px;
+    height: 165px;
+    border-radius: 100px;
+    margin-bottom: -15px;
+    border: 2px solid yellow;
+}
+
+.sidebar a{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.name_tag{
+    background: #FDEC01;
+    color: blue;
+    border: 3px solid #3498db;
+    padding: .1px 30px;
+    font-size: 16px;
+    font-family: "montserrat";
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.sidebar a:hover{
+    color: #FDEC01;
+    text-decoration: none;
+}
+
+.name_tag:hover{
+    border: 3px solid #3498db;
+}
+
