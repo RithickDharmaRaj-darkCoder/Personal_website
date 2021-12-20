@@ -13,12 +13,12 @@ body{
 }
 
 .logoarea span{
-    color: red;
+    color: #FC0312;
 }
 
 .sidebar{
     background: #0C3A47;
-    margin-top: auto;
+    margin-top: 0px;
     padding-top: auto;
     position: fixed;
     left: 0px;
@@ -31,7 +31,7 @@ body{
     height: 165px;
     border-radius: 100px;
     margin-bottom: -15px;
-    border: 2px solid yellow;
+    border: 2px solid white;
 }
 
 .sidebar a{
@@ -43,10 +43,11 @@ body{
 }
 
 .name_tag{
-    background: #FDEC01;
-    color: blue;
-    border: 3px solid #3498db;
-    padding: .1px 30px;
+    background: black;
+    color: red;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 1px 30px;
     font-size: 16px;
     font-family: "montserrat";
     cursor: pointer;
@@ -54,11 +55,39 @@ body{
 }
 
 .sidebar a:hover{
-    color: #FDEC01;
+    color: red;
     text-decoration: none;
+    font-size: 20px
 }
 
 .name_tag:hover{
-    border: 3px solid #3498db;
+    border: 2px solid white;
+    color: red;
+    background: black;
 }
 
+.username_tag{
+    background-color: red;
+    margin-left: 350px;
+    border: 2px solid;
+    border-color: white white white red;
+    border-radius: 0px 30px 30px 0px;
+    width: 259px;
+    margin-top: -43px;
+}
+
+.username_tag i{
+    padding: 3px 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.content_area{
+    background: black;
+    margin-top: 0x;
+    padding-top: auto;
+    position: fixed;
+    right: 0px;
+    width: 1186px;
+    height: 100%
+}

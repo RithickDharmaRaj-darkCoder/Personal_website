@@ -22,10 +22,19 @@
 
 <body>
     <div class="main">
+        <div class="content_area">
+            {% block content %}{% endblock %}
+        </div>
+
         <div class="sidebar">
             <div class="logoarea">
                 <h3>dark<span>Coder</span></h3>
             </div><br>
+
+            <div class="username_tag">
+                <i>Hello! {% block username %}Visitor{% endblock %}</i>
+            </div><br>
+
             <center>
                 <img src="../static/dp.jpeg" class="dp" alt=""><br>
 
@@ -39,7 +48,6 @@
                 <a href="/portfolio">PORTFOLIO</a><br>
                 <a href="/contact">CONTACT</a><br>
             </center>
-
         </div>
     </div>
 
