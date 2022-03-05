@@ -1,5 +1,43 @@
 {% extends "base.html" %}
+
 {% block title %}Home{% endblock %}
+
 {% block content %}
-    <h1>Home</h1>
+<h1 class="sample">Welcome to my Home!</h1><br>
+
+<div class="action">
+    <div class="sign_up" onclick="menuToggle();">
+        <h2>SIGN UP HERE!</h2>
+    </div>
+
+    <div class="sign_up_info">
+        <ul>
+            <li>
+                <input type="text" required="required" placeholder="User Name">
+                <label class="user_name_label" for=""></label>
+            </li>
+            <li>
+                <input type="email" required="required" placeholder="Email ID">
+                <label class="email_id_label" for=""></label>
+            </li>
+            <li>
+                <input type="password" required="required" placeholder="New Password">
+                <label class="new_pass_label" for=""></label>
+            </li>
+            <li>
+                <input type="password" required="required" placeholder="Confirm Password">
+                <label class="confirm_pass_label" for=""></label>
+            </li>
+            <li>
+                <input type="number" required="required" placeholder="OTP">
+                <label class="otp_label" for=""></label>
+                <button class="otp_btn">Send OTP</button>
+            </li>
+            <li>
+                <button class="sign_up_btn">Sign Up</button>
+            </li>
+        </ul>
+    </div>
+</div>
+
 {% endblock %}
