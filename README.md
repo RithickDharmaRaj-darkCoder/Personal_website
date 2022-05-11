@@ -1,2 +1,2 @@
 # Personal_website
-Starting a new project.
+Web site for my professional blog.
